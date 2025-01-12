@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background-color: #191919;
+  }
+  
+  span {
+    display: block;
+  }
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+    
+  }
+  
+  .button {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: solid black 1px;
+  }
+
+  
+  
+  #grey {
+    background: grey;
+    border-radius: 50%;
+  }
+  
+  #white {
+    background: aliceblue;
+    border-radius: 20px;
+  }
+  #blue {
+    background: blueviolet;
+    border-radius: 50%;
+  }
+  #yellow {
+    background: yellow;
+    border-radius: 20px;
+  }
+  

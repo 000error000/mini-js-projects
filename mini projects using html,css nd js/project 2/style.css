@@ -1,0 +1,105 @@
+/* Global Reset and Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Container Styling */
+.container {
+  height: 100vh;
+  background-color: #191919;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Text Styling */
+.container, p {
+  color: #fff; /* Darker text color for better readability */
+}
+
+/* Input Fields */
+#height, 
+#weight {
+  width: 80%; /* Adjust width for responsiveness */
+  max-width: 200px;
+  height: 35px;
+  margin: 15px 0;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+#height:focus, 
+#weight:focus {
+  border-color: #797978;
+}
+
+/* Results Section */
+#weight-guide {
+  margin-top: 20px;
+  color: #ecdbdb;
+  font-size: 14px;
+}
+
+#results {
+  font-size: 24px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+/* Button Styling */
+button {
+  width: 80%; /* Adjust width for responsiveness */
+  max-width: 200px;
+  height: 40px;
+  margin: 20px 0;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 2px solid #797978;
+  color: #333;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #797978;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings */
+h1 {
+  font-size: 28px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #height,
+  #weight {
+      font-size: 14px;
+  }
+  
+  button {
+      font-size: 16px;
+  }
+
+  #results {
+      font-size: 20px;
+  }
+
+  h1 {
+      font-size: 24px;
+  }
+}

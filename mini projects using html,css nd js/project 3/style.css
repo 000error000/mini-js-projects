@@ -1,0 +1,47 @@
+body {
+    background-color: #212121;
+    color: #fff;
+  }
+  .center {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .fonty{
+    font-size: 60px;
+    transition: 0.5s  ease;
+  }
+
+  .fonty:hover{
+    font-size: 80px;
+  }
+
+  .fonty0{
+    font-size: 40px;
+    transition: 1s ease;
+  }
+
+  .fonty0:hover{
+    font-size: 60px;
+    text-decoration-line: underline;
+  }
+
+  #banner{
+    font-size: 70px;
+  }
+
+ 
+
+  
+  #clock {
+    font-size: 40px;
+    background-color: orange;
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+
+  
